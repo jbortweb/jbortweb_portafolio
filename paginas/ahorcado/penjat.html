@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El penjat</title>
+    <script type="text/javascript" src="penjat.js"></script>
+    <link rel="stylesheet" href="penjat.css">
+</head>
+<body>
+
+<h1>El ahorcado</h1><br><br>
+
+<h3 id="guiones"></h3>
+
+<div id='tabla' class='tabla2'>
+
+<table id='boton'>
+
+    <tr>
+        <td><input type='button' value="a" name='teclaA' onclick="juega(this.value)"></td>
+    
+        <td><input type='button' value="b" name='teclaB' onclick="juega(this.value)"></td>
+    
+        <td><input type='button' value="c" name='teclaC' onclick="juega(this.value)"></td> 
+    
+        <td><input type='button' value="d" name='teclaD' onclick="juega(this.value)"></td> 
+    
+        <td><input type='button' value="e" name='teclaE' onclick="juega(this.value)"></td> 
+    
+        <td><input type='button' value="f" name='teclaF' onclick="juega(this.value)"></td>
+        
+        <td><input type='button' value="g" name='teclaG' onclick="juega(this.value)"></td>
+    </tr>
+
+    <tr>
+        <td><input type='button' value="h" name='teclaH' onclick="juega(this.value)"></td> 
+
+        <td><input type='button' value="i" name='teclaI' onclick="juega(this.value)"></td> 
+    
+        <td><input type='button' value="j" name='teclaJ' onclick="juega(this.value)"></td> 
+        
+        <td><input type='button' value="k" name='teclaK' onclick="juega(this.value)"></td> 
+        
+        <td><input type='button' value="l" name='teclaL' onclick="juega(this.value)"></td>
+        
+        <td><input type='button' value="m" name='teclaM' onclick="juega(this.value)"></td> 
+
+        <td><input type='button' value="n" name='teclaN' onclick="juega(this.value)"></td> 
+    </tr>
+
+    <tr>
+        <td><input type='button' value="ñ" name='teclaÑ' onclick="juega(this.value)"></td> 
+
+        <td><input type='button' value="o" name='teclaO' onclick="juega(this.value)"></td> 
+        
+        <td><input type='button' value="p" name='teclaP' onclick="juega(this.value)"></td> 
+        
+        <td><input type='button' value="q" name='teclaQ' onclick="juega(this.value)"></td> 
+        
+        <td><input type='button' value="r" name='teclaR' onclick="juega(this.value)"></td> 
+
+        <td><input type='button' value="s" name='teclaS' onclick="juega(this.value)"></td> 
+            
+        <td><input type='button' value="t" name='teclaT' onclick="juega(this.value)"></td>
+    </tr>
+    
+    <tr>
+        <td><input type='button' value="u" name='teclaU' onclick="juega(this.value)"></td> 
+
+        <td><input type='button' value="v" name='teclaV' onclick="juega(this.value)"></td> 
+        
+        <td><input type='button' value="w" name='teclaW' onclick="juega(this.value)"></td>
+
+        <td><input type='button' value="x" name='teclaX' onclick="juega(this.value)"></td> 
+
+        <td><input type='button' value="y" name='teclaY' onclick="juega(this.value)"></td> 
+            
+        <td><input type='button' value="z" name='teclaZ' onclick="juega(this.value)"></td>
+    </tr>
+    
+    <tr>
+
+        <td colSpan=5><input type=button value="Juego nuevo" name=Inicia onclick="nuevo()"></td>
+        <td colSpan=5><input type="button" value='borrar' onclick="borrar()"></td>
+    </tr>
+    
+</table>
+
+</div>
+<br>
+
+<div class='display'>
+
+    <input name="utilizadas" type="text" id="utilizadas" size="10"></td>
+
+    <p id='encontradas'></p>
+</div>
+
+<div class='ahorcado'>
+
+<img id='imagenes'class="muñeco" src="imatges/ahorcado_6.png"></img>
+<p id='errores'></p>
+
+</div>
+
+    
+</body>
+</html>

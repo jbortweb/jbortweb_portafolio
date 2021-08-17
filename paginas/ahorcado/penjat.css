@@ -1,0 +1,47 @@
+.tabla2 {
+    
+    width: 400px;
+    margin: auto;
+}
+
+td {
+
+    width: 50px;;
+}
+
+.display {
+
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.imagenes {
+
+    float:left;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+h3 {
+
+    text-align:center;
+}
+
+.ahorcado {
+
+    position:relative;
+    width: 200px;
+    height: 400px;
+    bottom:450px;
+    margin-left: 100px;
+}
+
+.muñeco {
+
+    width: 200px;
+    height: 400px;
+}

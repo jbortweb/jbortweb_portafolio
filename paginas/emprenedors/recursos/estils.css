@@ -1,0 +1,569 @@
+*{
+    margin:0;
+    padding:0;
+    }
+   
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/*****************INDEX*****************/
+
+* {
+    font-family:arial;
+}
+
+/*****************NAVEGADOR*************/
+
+.cabecera {
+
+    background-color:rgb(218, 214, 214);
+    height: 5rem;
+    width: 100%;
+    text-align:center;
+}
+
+.menu {
+    
+    margin-left: auto;
+    text-align: left;
+    position:relative;
+    top: 2rem;
+    width: 75%; 
+    padding-left: 10%;
+    
+}
+
+.menu li {
+    
+    display:inline-block;
+    position:relative;
+    list-style: none;
+    padding-left: 2rem;
+    padding-right:2rem;
+    font-weight: bold
+}
+
+.menu a {
+    
+    text-decoration: none;
+    color:rgb(126, 123, 123);
+    font-size: 2rem;
+    left: 5rem;
+}
+
+.menu > li {
+
+    position: relative;
+}
+
+.menu > li > a {
+
+    display: block;
+    padding: 1rem 1.3rem;
+    color: #353535;
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+
+    color: #CE7D35;
+    transition: all .3s;
+}
+
+/* submenu */
+
+.submenu { 
+
+    position: absolute;
+    right: 2rem;
+    background: white;
+    width: 11rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+
+.submenu li a {
+
+    display: block;
+    padding: 1rem;
+    color: black;
+    font-family: Verdana;
+    text-decoration: none;
+    
+}
+
+.menu li:hover .submenu {
+
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+/****************ARTICULOS*******************/
+
+h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.agrupar {
+    
+    margin-right:20rem;
+    margin-left:20rem;
+}
+
+.texto {
+    
+    margin-left:16%;
+    margin-right:12%;
+    padding-top:3rem;
+    font-size: 2.10rem;
+    font-weight: 500;
+    
+}
+
+/***********************IMAGENES****************/
+
+.logcab{
+
+    float: left;
+    height: 90%;
+    width: 15%;
+    margin-left: 17%;
+    padding-top: 0.5rem;
+     
+       
+}
+
+.logprin {
+    
+    display:block;
+    width: 70%;    
+    margin:auto;
+    padding-top: 1rem;
+}
+
+/******************FOOTER******************/
+
+table {
+       
+    width: 78rem;
+    height: 5rem;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+
+.logabajo {
+
+    width:22.5rem;
+    
+}
+
+td:hover {
+    
+    transform:scale(1,1.5);
+    transition:all 1s;
+}
+
+
+
+/**************PAGINA BASES**************/
+
+.hache4 {
+    
+    height: 3rem;
+    font-size: 2rem;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 15%;
+}
+
+.bases {
+
+    text-align: center;
+    color: rgb(70, 68, 68);
+    font-weight: bold;
+    font-size: 1.7rem; 
+}
+
+.bases p:hover{
+
+    color: rgb(10, 10, 10);
+    transition: all .3s;
+}
+
+.ralla {
+
+    margin:auto;
+    margin-top:0.5rem;
+    margin-bottom: 0.5rem;
+    width: 70%;
+}
+
+p .boton {
+    
+    position:absolute;
+    right: 10%;   
+}
+
+a {
+    text-decoration: none;
+    color:black;
+   
+}
+
+
+/***************PAGINA NOTES DE PRENSA**************/
+
+.prensa {
+
+    margin: auto;
+    font-weight: bold;
+    background-color: rgb(218, 214, 214); 
+    height: 3.5rem;
+    width: 70%;
+    box-sizing: border-box;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+
+}
+
+
+.recorte {
+    border:2px solid black;
+    margin-left: 27%;
+    padding: 1rem;
+    color:red;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+
+}
+
+
+/*************ENTREGA DE PREMIS************/
+
+.multimedia {
+
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+iframe{
+
+    width: 560px; 
+    height: 315px;
+}
+
+
+/**************PAGINA INFORMACIO************/
+
+.contacto {
+
+    text-align: center;
+}
+
+.contacto h2 {
+
+    font-size: 2.2rem;
+    
+}
+.presen {
+
+    margin:auto;
+    width: 75%;
+}
+
+.correo:hover {
+
+    background-color:rgb(138, 128, 128);
+   
+}
+
+.contacto p {
+
+    font-weight: lighter;
+    font-size: 1.7em;
+}
+
+/**********MEDIAQUERY**********/
+
+@media (max-width: 1720px) {
+
+    .menu {
+
+        padding-left: 5%;
+    }
+
+    
+}
+
+@media (max-width: 1602px) {
+
+    .logabajo {
+
+        width:17rem;        
+    }
+
+    .menu li {
+
+        padding-left: 0%; 
+        left: 5rem;
+    }
+
+}    
+
+@media (max-width: 1420px){
+
+    .menu {
+
+        right:5rem;
+    }
+
+    .menu a {
+
+        font-size: 135%;       
+    }
+
+    .recorte {
+
+        margin-left: 25%;
+    }
+
+    .bases {
+
+        font-size: 1.4rem;
+    }
+
+    .logabajo {
+
+        width: 12rem;        
+    }
+
+    .hache4 {
+
+        font-size: 1.7rem;
+        margin-bottom: -1rem;        
+    }
+}
+
+@media (max-width: 1020px) {
+
+    .logabajo {
+
+        width:12rem;        
+    } 
+
+    .logcab{
+
+        margin-left: 8%;
+    }
+    
+    p .boton{
+
+        right:2%;
+    }
+
+    .recorte {
+
+        margin-left: 21%;
+    }
+
+    .contacto h2 {
+
+        font-size: 2rem;        
+    }
+
+    .contacto p {
+
+        font-size: 1.5rem;
+        
+    }
+
+    .presen {
+
+        width: 65%;
+
+    }
+}
+
+@media (max-width: 820px) {
+
+    table {
+       
+        width: 58rem;}
+
+    .logabajo {
+
+        width:9rem;        
+    }   
+  
+    
+    .agrupar {
+        
+        margin-right:10rem;
+        margin-left:10rem;
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .texto {
+
+        font-size:1.7rem;
+    }
+
+    .bases p{
+
+        width: 75%;
+        margin:auto;
+    }
+
+    p .boton{
+
+        right:0%;
+    }
+
+    .recorte {
+
+        margin-left: 18%;
+        font-size: 1.2rem;
+    }
+
+    .prensa {
+
+        height: 2.5rem;
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 620px) {
+
+    iframe{
+
+        width: 460px; 
+        height: 270px;
+    }
+
+    table {
+       
+        width: 35rem;}
+
+    .logabajo {
+
+        width:7rem;        
+    } 
+
+    .agrupar {
+        
+        margin-right:8rem;
+        margin-left:8rem;
+    }
+
+    .menu {
+    
+        right: 3rem;
+        width: 100%;
+        height: 5rem;
+    }
+
+    .menu li{
+        margin-top: -1.5rem;
+        padding-bottom: 0.7rem;
+    }
+
+    .menu a {
+    
+        font-size: 105%;     
+    }
+
+    h3 {
+        
+        font-size: 1.5rem;
+    }
+
+    .texto {
+
+        font-size:1.2rem;
+    }
+
+    td:hover {
+    
+        transform:scale(1,3);
+        transition:all 1s;
+    }
+
+    .recorte {
+
+        margin-left: 15%;
+        font-size: 1rem;
+    }
+
+    .prensa {
+
+        height: 2.5rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .menu a {
+
+        font-size: 90%
+    }
+
+    td:hover {
+    
+        transform:scale(1,5);
+        transition:all 1s;
+    }
+
+    table {
+       
+        width: 15rem;
+    }
+
+    .logabajo {
+
+        width:6.5rem;        
+    }
+
+    .contacto h2 {
+
+        font-size: 1.8rem;        
+    }
+
+    .contacto p {
+
+        font-size: 1.5rem;
+        
+    }
+
+    
+    iframe{
+
+        width: 310px; 
+        height: 202px;
+    }
+}

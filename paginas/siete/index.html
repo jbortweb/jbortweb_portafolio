@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugamos al siete y medio</title>
+    <script type="text/javascript" src= "recursos/7ymedio.js"></script>
+    <link rel="stylesheet" href="recursos/7ymedio.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1> El Siete y medio <small>  7<small class="peque">1/5</small></small></h1>
+        
+    </header>
+
+    <section>
+
+        <div class="jugador">
+
+            <p>
+                <strong>Total Jugador: </strong>
+                <input class="puntuacion" disabled="disabled" type="text" id="puntos"/>
+                <input class="plantarse" id="boton2" type="button" value="Me planto" onclick="plantarse()"/>
+            </p>
+
+        </div>
+
+        <div class="banca">
+
+            <p>
+                <strong>Total Banca: </strong>
+                <input class="puntuacion2" disabled="disabled" type="text" id="puntos2"/>
+                <input class="ganador" type="text" id="texto" value="7 y Medio">
+            </p>
+        
+        </div>
+
+        <div class="central" id="contenedor_central">
+            
+            <div class="juegocliente" id="juego_jugador">
+                
+                <img class="cartacliente" id="im_jugar" onclick="aleatoria()" alt="Carta trasera" src="imagenes/trasera_jug.jpg"/>
+                <img class="cartajugador" id="carta_jugador" alt="" src=""/>
+                <div class="todas" id="todas_cartas"></div>
+
+        </div>
+
+        <div class="juegobanca" id="juego_banca">
+            <img class="cartalocal" alt="Carta trasera" src="imagenes/trasera.jpg"/>
+            <img class="cartabanca" id="carta_banca" alt="" src=""/>
+            <div class="todasbanca" id="todas_cartas_banca"></div>
+
+        </div>
+
+       <button class="botonreinicio" id="reiniciar" onclick="location.reload();">Reiniciar</button>
+
+
+
+
+
+
+    </section>
+
+    
+</body>
+</html>

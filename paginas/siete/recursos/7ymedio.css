@@ -1,0 +1,237 @@
+*{
+    margin:0;
+    padding:0;
+    }
+
+@font-face {
+
+    font-family: "Lobster";
+    src: url("../fuentes/Lobster-Regular.ttf");
+}   
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*********CABECERA**********/
+
+header {
+
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(141, 187, 164);
+    text-align: center;    
+}
+
+h1 {
+
+    font-family: Lobster;
+    font-size: 500%;
+    padding-top: 2rem;
+}
+
+small {
+    
+    font-size: 70%;    
+}
+
+.peque {
+    position: relative;
+    font-size: 55%;
+    bottom: 1rem;
+}
+
+/********SECTION********/
+
+section {
+
+    height: 10rem; 
+    margin-left: 18rem; 
+    width: 80%; 
+    margin-top: 0px;
+}
+
+/********JUGADOR********/
+
+.jugador {
+    
+    float:left;
+    position:relative;
+    width: 37.9rem; 
+    height: 5.5rem;
+}
+
+.jugador p {
+
+    font-size: 300%; 
+    height: 3.4rem; 
+    width: 30rem; 
+    margin-left: 8.8rem;
+    margin-top: 2rem;
+}
+
+.puntuacion {
+
+    width: 5rem; 
+    height: 2.8rem; 
+    text-align:center;
+    font-size: 2rem;
+    border-width: 0px; 
+    margin-top: 0px;
+    font-weight: bold;
+    color:rgb(34, 65, 240);
+    background-color: black;
+}
+
+.plantarse {
+
+    font-size: 48%;
+    width: 7.6rem; 
+    height: 3.2rem; 
+    margin-top: 1.5rem; 
+    margin-left: 0.6rem;
+}
+
+/*********BANCA*********/
+
+.banca {
+
+    position:relative;
+    float:right; 
+    width: 37.9rem; 
+    height: 5.5rem;
+    right: 5rem;
+}
+
+.banca p {
+
+    font-size: 300%; 
+    height: 3.4rem; 
+    width: 30rem; 
+    margin-top: 2rem;
+
+}
+
+.puntuacion2 {
+
+    width: 5rem; 
+    height: 2.8rem; 
+    text-align:center;
+    font-size: 2rem;
+    border-width: 0px; 
+    margin-top: 0px;
+    font-weight: bold;
+    color:rgb(34, 65, 240);
+    background-color: black;
+}
+
+/*********CARTAS***********/
+
+.central {
+
+    position: relative;
+    margin: auto; 
+    top: 10rem; 
+    height: 40rem; 
+    width: 100rem;
+}
+
+.juegocliente {
+    position:relative;
+    border: thin groove #C0C0C0; 
+    width: 50rem; 
+    height: 32rem; 
+    float:left;
+    right: 5rem;
+}
+
+.cartacliente {
+
+    height: 27rem; 
+    width: 18rem; 
+    margin-bottom: 2rem;
+    margin-left: 4rem; 
+    cursor: pointer;
+}
+
+.cartajugador {
+    
+    height: 27rem; 
+    width: 18rem; 
+    margin-top: 4rem; 
+    margin-left: 4rem; 
+    visibility: hidden;
+}
+
+.todas{
+    
+    height: 12.2rem; 
+    margin-left: 3.1rem;
+}
+
+.juegobanca {
+
+    position:relative;
+    border: thin groove #C0C0C0; 
+    width: 50rem; 
+    height: 32rem;
+    float:left;
+    right: 5rem;
+}
+
+.cartalocal {
+
+    height: 27rem; 
+    width: 18rem; 
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+}
+
+.cartabanca {
+
+    height: 27rem; 
+    width: 18rem; 
+    margin-top: 4rem; 
+    margin-left: 4rem; 
+    visibility: hidden;
+}
+
+.todasbanca {
+    
+    height: 12.2rem; 
+    margin-left: 3.1rem
+}
+
+/********PUNTUACION*******/
+
+.ganador {
+
+    position:relative;
+    bottom:4rem;
+    border: 2px solid black;
+    right: 22rem;
+    width: 14rem;
+    height: 4rem;
+    text-align: center;
+    color:rgb(34, 65, 240);
+    font-weight: bold;
+}
+
+/*******REINICIO*********/
+
+.botonreinicio {
+
+    position: relative;
+    width: 22.4rem;
+    height: 2.3rem;
+    margin:auto;
+    margin-top:1.5rem;
+    border: 1px black solid;
+
+}
